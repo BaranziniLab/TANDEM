@@ -160,7 +160,7 @@ def get_tandem_predictions(tandem_model, temporal_model, non_temporal_model, tem
     test_df = get_tandem_test_data(temporal_model, non_temporal_model, temporal_test_data, non_temporal_test_data, test_metadata)
     X_test = test_df[["y_score_non_temporal_percentile", "y_score_temporal_percentile"]].values
     y_test = test_df["label"].values
-    y_score = tandem_model.predict_proba(X_test)
+    y_score = tandem_model.predict(X_test)
     optThresh = get_optimal_threshold(y_test, y_score)
     return y_score, optThresh 
 
@@ -187,7 +187,7 @@ def get_tandem_single_patient_prediction(patient_index, optThresh, temporal_mode
     temp_prediction_nor = stats.percentileofscore(train_df.y_score_temporal, temp_prediction)/100
     non_temp_prediction_nor = stats.percentileofscore(train_df.y_score_non_temporal, non_temp_prediction)/100
     X = [non_temp_prediction_nor, temp_prediction_nor]
-    y_score = tandem_model.predict_proba(np.expand_dims(np.array(X),1).transpose())
+    y_score = tandem_model.predict(np.expand_dims(np.array(X),1).transpose())
     prediction = int(y_score>=optThresh)
     if label_sel == 1:
         label_type = "PD"
