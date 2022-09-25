@@ -17,8 +17,18 @@ Here, we consider the prediction of Parkinson's Disease (PD).
 
 ## Instructions
 
-1. Download the data folder from <place holder for google drive link> and place it in this repo.
+1. Download the data folder from <place holder for google drive link> and place it in this repo. Data folder has the following contents:
 
-    * 
+    * train data - both temporal and non-temporal knowledge graph representations of patients for training models
+    * train metadata - train data patients' sl no and their labels
+    * test data - both temporal and non-temporal knowledge graph representations of patients for evaluating models
+    * test metadata - test data patients' sl no and their labels
+    * pre-trained models - models (temporal, non-temporal and TANDEM models) trained on their respective train data.
+   
+**Note: As per the protocol, we cannot share the EHR data of patients even in the de-identified form. Hence, we are sharing their graph representions (obtained using their EHR data) which could be used for ML pipeline.**
+   
+   
+2. Create a virtual environment:
+   
 
 
