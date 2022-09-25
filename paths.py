@@ -1,10 +1,6 @@
 import os
 
 
-ROOT_PATH_ = "/pool0/home/karthik"
-ROOT_PATH = os.path.join(ROOT_PATH_, "files_from_lab_imac/OMOP_EHR")
-RESULT_DIR = os.path.join(ROOT_PATH, "temporal_spokesig", "data")
-
 TRAIN_DATA_PATH = os.path.join("data" , "train")
 TEST_DATA_PATH = os.path.join("data" , "test")
 MODEL_PATH = os.path.join("data", "pretrained_models")
