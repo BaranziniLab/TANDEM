@@ -17,7 +17,7 @@ Here, we consider the prediction of Parkinson's Disease (PD).
 
 ## Instructions
 
-1. Download "data" folder (~14 GB) from <place holder for google drive link> and copy the downloaded "data" folder to this repo. 
+1. Download "data" folder (~14 GB) from <place holder for google drive link> and copy the downloaded "data" folder to the root path of this repo. 
    
    Data folder has the following contents:
 
