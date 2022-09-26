@@ -36,7 +36,7 @@ Here, we consider the prediction of Parkinson's Disease (PD).
    
    **Note:** As per the protocol, we cannot share the EHR data of patients even in the de-identified form. Hence, we are sharing their graph representions (obtained using their EHR data) in a [box folder](https://ucsf.box.com/s/fnprt4vgdxhefo301lwy0fsz70eujfcr) which could be further used for ML pipeline. 
    
-   **Optional Note**: We have implemented a separate REST-API service to create graph representations of patients using their EHR data in real time. Check out [this](https://github.com/BaranziniLab/SPOKEsigs) repo for that. 
+   **Note (Optional)**: We have implemented a separate REST-API service to create graph representations of patients using their EHR data in real time. Check out [this](https://github.com/BaranziniLab/SPOKEsigs) repo for that. 
    
    
 2. Create a virtual environment:
