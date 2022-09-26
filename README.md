@@ -17,7 +17,7 @@ Here, we consider the prediction of Parkinson's Disease (PD).
 
 ## Instructions
 
-1. Download the data folder from <place holder for google drive link> and place it in this repo. Data folder has the following contents:
+1. Download the data folder (~14 GB) from <place holder for google drive link> and place it in this repo. Data folder has the following contents:
 
     * **train data** - both temporal and non-temporal knowledge graph representations of patients for training models
     * **train metadata** - train data patients' sl no and their labels
