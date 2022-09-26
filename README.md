@@ -38,17 +38,22 @@ Here, we consider the prediction of Parkinson's Disease (PD).
    virtualenv -p $(which python3) venv
    ```
    
-3. Install all the required modules:
+3. Activate the virtual environment:
+   ```
+   source venv/bin/activate
+   ```
+   
+4. Install all the required modules:
    ```
    pip install -r requirements.txt
    ```
    
-4. Run a jupyter notebook instance in your machine.
+5. Run a jupyter notebook instance in your machine.
    
    **Note: To run the code, it requires more than 24 GB RAM and 8 CPU cores.** 
 
 
-5. Run the notebook **TANDEM.ipynb**
+6. Run the notebook **TANDEM.ipynb**
    
 
 
