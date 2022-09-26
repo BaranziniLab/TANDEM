@@ -6,8 +6,11 @@ TANDEM introduces a new modeling architecture that uses temporal dynamics of pat
 This is achieved by embedding EHR data of patients on a biomedical knwoledge graph called [SPOKE](https://spoke.ucsf.edu/) ([Nelson et al. 2019](https://www.nature.com/articles/s41467-019-11069-0), [Nelson et al. 2022](https://academic.oup.com/jamia/article/29/3/424/6463510)). 
 This embedding creates a knowledge graph representation called SPOKEsig (short for SPOKE signature) for patients and could be used for further downstream Machine Learning (ML) pipeline.
 
-In this project, we introduce a concept called temporal SPOKEsig, where we create patient embeddings at multiple time points of patients' timeline and hence capturing the temporal dynamics of the disease.
+In this project, we introduce a concept called temporal SPOKEsig, where we create patient embeddings at multiple time points of patients' timeline and hence capturing the temporal dynamics of the disease. Following figure shows the schema of TANDEM architecture.
 
+<p align="center">
+   <img src="https://user-images.githubusercontent.com/42702311/192233861-747d0aaa-367a-4ce3-9759-0f0af01fecb1.png" width="400" height="400" />
+</p>
 
 **Note: This work has been accepted for publication (and for oral presentation) in the proceedings of [PSB 2023](http://psb.stanford.edu/).**
 
