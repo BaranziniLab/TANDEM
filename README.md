@@ -20,7 +20,11 @@ Here, we consider the prediction of Parkinson's Disease (PD).
 
 ## Instructions
 
-1. Download "data" folder (~14 GB) from <place holder for google drive link> and copy the downloaded "data" folder to the root path of this repo. 
+1. Download "data" folder (~24 GB) from the [box folder](https://ucsf.box.com/s/fnprt4vgdxhefo301lwy0fsz70eujfcr). 
+
+   Unzip the downloaded zip file. 
+   
+   Copy the unzipped "data" folder to the root path of this repo. 
    
    Data folder has the following contents:
 
