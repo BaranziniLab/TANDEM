@@ -61,7 +61,7 @@ def load_tandem(temporal_model, non_temporal_model, train_flag=False):
         print("Selected to train TANDEM model")
         set_model_hyperparams()
         train_df = get_tandem_train_data(temporal_model, non_temporal_model, train_metadata)
-        test_df = get_tandem_test_data(temporal_model, non_temporal_model, temporal_test_data, non_temporal_test_data, test_metadata, train_df)
+        test_df = get_tandem_test_data(temporal_model, non_temporal_model, temporal_test_data, non_temporal_test_data, test_metadata)
         X_train = train_df[["y_score_non_temporal_percentile", "y_score_temporal_percentile"]].values
         y_train = train_df["label"].values
         X_test = test_df[["y_score_non_temporal_percentile", "y_score_temporal_percentile"]].values
